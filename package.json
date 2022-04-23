@@ -1,0 +1,28 @@
+{
+  "name": "sports-backend",
+  "version": "0.0.0",
+  "description": "NodeJS + Express backend for mock sports e-commerce app",
+  "main": "app.js",
+  "type": "module",
+  "author": "Georgi Uchkunov",
+  "private": true,
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.2",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
